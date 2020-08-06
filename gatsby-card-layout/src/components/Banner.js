@@ -1,13 +1,15 @@
 import React from 'react'
+import '../pages/i18n'
+import { Translation, Trans } from 'react-i18next'
 
 const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>
-          Hello, welcome to Blake Immigration Law.
-          <p>Hola, bienvenidos a Blake Immigration Law.</p>
-        </h1>
+        <Translation>
+          {t=> <h1>
+          {t('Hello, welcome to Blake Immigration Law')}.</h1>}
+        </Translation>
       </header>
       <div className="content">
         <p>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import './i18n'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
@@ -10,6 +11,8 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+
+import { Translation, Trans } from 'react-i18next'
 
 class HomeIndex extends React.Component {
   render() {
@@ -23,7 +26,11 @@ class HomeIndex extends React.Component {
               content:
                 'Blake Immigration Law -- Specializing in Removal Defense, Asylum, and Family-based Immigration',
             },
-            { name: 'keywords', content: 'immigration, law, asylum, Jillian Blake, removal defense, removal, defense, family, immigration' },
+            {
+              name: 'keywords',
+              content:
+                'immigration, law, asylum, Jillian Blake, removal defense, removal, defense, family, immigration',
+            },
           ]}
         ></Helmet>
 
@@ -33,11 +40,16 @@ class HomeIndex extends React.Component {
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>Services</h3>
-                <p>
-                  Removal Defense, Humanitarian Visas, Family-based Immigration,
-                  Naturalization
-                </p>
+                <Translation>{t => <h3>{t('Services')}</h3>}</Translation>
+                <Translation>
+                  {t => (
+                    <p>
+                      {t(
+                        'Removal Defense, Humanitarian Visas, Family-based Immigration, Naturalization'
+                      )}
+                    </p>
+                  )}
+                </Translation>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
