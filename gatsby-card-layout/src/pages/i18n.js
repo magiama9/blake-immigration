@@ -33,9 +33,6 @@ const detectionOptions = {
   cookieMinutes: 10,
   cookieDomain: 'myDomain',
 
-  // optional htmlTag with lang attribute, the default is:
-  htmlTag: document.documentElement,
-
   // optional set cookie options, reference:[MDN Set-Cookie docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie)
   cookieOptions: { path: '/', sameSite: 'strict' },
 }
