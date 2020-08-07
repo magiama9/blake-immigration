@@ -36,79 +36,77 @@ class HomeIndex extends React.Component {
 
         <Banner />
 
-        <div id="main">
-          <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${pic01})` }}>
-              <header className="major">
-                <Translation>{t => <h3>{t('Services')}</h3>}</Translation>
-                <Translation>
-                  {t => (
+        <Translation>
+          {t => (
+            <div id="main">
+              <section id="one" className="tiles">
+                <article style={{ backgroundImage: `url(${pic01})` }}>
+                  <header className="major">
+                    <h3>{t('Services')}</h3>
                     <p>
                       {t(
                         'Removal Defense, Humanitarian Visas, Family-based Immigration, Naturalization'
                       )}
                     </p>
-                  )}
-                </Translation>
-              </header>
-              <Link to="/landing" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundImage: `url(${pic02})` }}>
-              <header className="major">
-                <h3>Servicios</h3>
-                <p>
-                  Defensa de Deportación, Visas Humanitarias, Peticiones
-                  Familiares, Naturalización
-                </p>
-              </header>
-              <Link to="/landing" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundImage: `url(${pic03})` }}>
-              <header className="major">
-                <h3>About Us/Acerca De</h3>
-                <p>Meet our team.</p>
-                <p>Conozca a nuestro equipo.</p>
-              </header>
-              <Link to="/landing" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundImage: `url(${pic04})` }}>
-              <header className="major">
-                <h3>Social Media</h3>
-                <p>Stay Up To Date</p>
-              </header>
-              <Link to="/landing" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundImage: `url(${pic05})` }}>
-              <header className="major">
-                <h3>Victories/Victorias</h3>
-                <p>See what we've done</p>
-              </header>
-              <Link to="/landing" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundImage: `url(${pic06})` }}>
-              <header className="major">
-                <h3>Testimonials/Testimonios</h3>
-                <p>Hear from people we've helped</p>
-              </header>
-              <Link to="/landing" className="link primary"></Link>
-            </article>
-          </section>
-          <section id="two">
-            <div className="inner">
-              <header className="major">
-                <h2>Mission/Misión</h2>
-              </header>
-              <p>
-                Our law firm is dedicated to offering excellent, affordable
-                legal services to immigrants and refugees in the Washington, DC
-                area. We represent our clients before the Arlington and
-                Baltimore Immigration Courts, the Board of Immigration Appeals
-                (BIA) and U.S. Citizenship and Immigration Services (USCIS) with
-                a focus on removal (deportation) defense, asylum and
-                family-based immigrant petitions. Our office is conveniently
-                located in Old Town Alexandria, Virginia.
-              </p>
-              <p>
+                  </header>
+                  <Link to="/landing" className="link primary"></Link>
+                </article>
+                <article style={{ backgroundImage: `url(${pic02})` }}>
+                  <header className="major">
+                    <h3>Servicios</h3>
+                    <p>
+                      Defensa de Deportación, Visas Humanitarias, Peticiones
+                      Familiares, Naturalización
+                    </p>
+                  </header>
+                  <Link to="/landing" className="link primary"></Link>
+                </article>
+                <article style={{ backgroundImage: `url(${pic03})` }}>
+                  <header className="major">
+                    <h3>{t('About Us')}</h3>
+                    <p>{t('Meet our team')}</p>
+                  </header>
+
+                  <Link to="/landing" className="link primary"></Link>
+                </article>
+                <article style={{ backgroundImage: `url(${pic04})` }}>
+                  <header className="major">
+                    <h3>{t('Social Media')}</h3>
+                    <p>{t('Stay Up To Date')}</p>
+                  </header>
+                  <Link to="/landing" className="link primary"></Link>
+                </article>
+                <article style={{ backgroundImage: `url(${pic05})` }}>
+                  <header className="major">
+                    <h3>{t('Victories')}</h3>
+                    <p>{t("See what we've done")}</p>
+                  </header>
+                  <Link to="/landing" className="link primary"></Link>
+                </article>
+                <article style={{ backgroundImage: `url(${pic06})` }}>
+                  <header className="major">
+                    <h3>{t('Testimonials')}</h3>
+                    <p>{t("Hear from people we've helped")}</p>
+                  </header>
+                  <Link to="/landing" className="link primary"></Link>
+                </article>
+              </section>
+              <section id="two">
+                <div className="inner">
+                  <header className="major">
+                    <h2>Mission/Misión</h2>
+                  </header>
+                  <p>
+                    Our law firm is dedicated to offering excellent, affordable
+                    legal services to immigrants and refugees in the Washington,
+                    DC area. We represent our clients before the Arlington and
+                    Baltimore Immigration Courts, the Board of Immigration
+                    Appeals (BIA) and U.S. Citizenship and Immigration Services
+                    (USCIS) with a focus on removal (deportation) defense,
+                    asylum and family-based immigrant petitions. Our office is
+                    conveniently located in Old Town Alexandria, Virginia.
+                  </p>
+                  {/* <p>
                 Nuestro bufete se dedica a ofrecer servicios legales excelentes
                 y económicos a inmigrantes y refugiados en el área de
                 Washington, DC. Representamos a nuestros clientes ante los
@@ -118,17 +116,19 @@ class HomeIndex extends React.Component {
                 deportación, asilo y peticiones de inmigrantes familiares.
                 Nuestra oficina está convenientemente ubicada en Old Town
                 Alexandria, Virginia.
-              </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/landing" className="button next">
-                    Get Started
-                  </Link>
-                </li>
-              </ul>
+              </p> */}
+                  <ul className="actions">
+                    <li>
+                      <Link to="/landing" className="button next">
+                        Get Started
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </section>
             </div>
-          </section>
-        </div>
+          )}
+        </Translation>
       </Layout>
     )
   }
