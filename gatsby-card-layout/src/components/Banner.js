@@ -1,5 +1,5 @@
 import React from 'react'
-import '../pages/i18n'
+import '../assets/locales/i18n'
 import { Translation, Trans } from 'react-i18next'
 
 const Banner = props => (

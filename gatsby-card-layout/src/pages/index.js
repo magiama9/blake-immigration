@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import './i18n'
+import '../assets/locales/i18n'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
