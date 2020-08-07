@@ -40,6 +40,14 @@ class HomeIndex extends React.Component {
           {t => (
             <div id="main">
               <section id="one" className="tiles">
+                <article style={{ backgroundImage: `url(${pic03})` }}>
+                  <header className="major">
+                    <h3>{t('About Us')}</h3>
+                    <p>{t('Meet our team')}</p>
+                  </header>
+
+                  <Link to="/landing" className="link primary"></Link>
+                </article>
                 <article style={{ backgroundImage: `url(${pic01})` }}>
                   <header className="major">
                     <h3>{t('Services')}</h3>
@@ -61,14 +69,7 @@ class HomeIndex extends React.Component {
                   </header>
                   <Link to="/landing" className="link primary"></Link>
                 </article>
-                <article style={{ backgroundImage: `url(${pic03})` }}>
-                  <header className="major">
-                    <h3>{t('About Us')}</h3>
-                    <p>{t('Meet our team')}</p>
-                  </header>
 
-                  <Link to="/landing" className="link primary"></Link>
-                </article>
                 <article style={{ backgroundImage: `url(${pic04})` }}>
                   <header className="major">
                     <h3>{t('Social Media')}</h3>
@@ -94,29 +95,13 @@ class HomeIndex extends React.Component {
               <section id="two">
                 <div className="inner">
                   <header className="major">
-                    <h2>Mission/Misión</h2>
+                    <h2>{t('Mission')}</h2>
                   </header>
                   <p>
-                    Our law firm is dedicated to offering excellent, affordable
-                    legal services to immigrants and refugees in the Washington,
-                    DC area. We represent our clients before the Arlington and
-                    Baltimore Immigration Courts, the Board of Immigration
-                    Appeals (BIA) and U.S. Citizenship and Immigration Services
-                    (USCIS) with a focus on removal (deportation) defense,
-                    asylum and family-based immigrant petitions. Our office is
-                    conveniently located in Old Town Alexandria, Virginia.
+                    {t(
+                      'Our law firm is dedicated to offering excellent, affordable legal services to immigrants and refugees in the Washington, DC area. We represent our clients before the Arlington and Baltimore Immigration Courts, the Board of Immigration Appeals (BIA) and U.S. Citizenship and Immigration Services (USCIS) with a focus on removal (deportation) defense asylum and family-based immigrant petitions. Our office is conveniently located in Old Town Alexandria, Virginia.'
+                    )}
                   </p>
-                  {/* <p>
-                Nuestro bufete se dedica a ofrecer servicios legales excelentes
-                y económicos a inmigrantes y refugiados en el área de
-                Washington, DC. Representamos a nuestros clientes ante los
-                Tribunales de Inmigración de Arlington y Baltimore, la Junta de
-                Apelaciones de Inmigración y los Servicios de Ciudadanía e
-                Inmigración de los Estados Unidos con un enfoque en defensa de
-                deportación, asilo y peticiones de inmigrantes familiares.
-                Nuestra oficina está convenientemente ubicada en Old Town
-                Alexandria, Virginia.
-              </p> */}
                   <ul className="actions">
                     <li>
                       <Link to="/landing" className="button next">

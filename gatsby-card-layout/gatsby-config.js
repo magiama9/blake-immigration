@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
+        name: 'blake-immigration-law',
         short_name: 'blakelaw',
         start_url: '/',
         background_color: '#663399',
