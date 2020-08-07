@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
+  "name": "blake-immigration-law",
+  "description": "Blake Immigration Law",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Sam Randels",
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
