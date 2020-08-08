@@ -46,7 +46,7 @@ class HomeIndex extends React.Component {
                     <p>{t('Meet our team')}</p>
                   </header>
 
-                  <Link to="/landing" className="link primary"></Link>
+                  <Link to="/about" className="link primary"></Link>
                 </article>
                 <article style={{ backgroundImage: `url(${pic01})` }}>
                   <header className="major">
@@ -57,7 +57,7 @@ class HomeIndex extends React.Component {
                       )}
                     </p>
                   </header>
-                  <Link to="/landing" className="link primary"></Link>
+                  <Link to="/services" className="link primary"></Link>
                 </article>
                 <article style={{ backgroundImage: `url(${pic02})` }}>
                   <header className="major">
@@ -67,7 +67,7 @@ class HomeIndex extends React.Component {
                       Familiares, Naturalización
                     </p>
                   </header>
-                  <Link to="/landing" className="link primary"></Link>
+                  <Link to="/services" className="link primary"></Link>
                 </article>
 
                 <article style={{ backgroundImage: `url(${pic04})` }}>

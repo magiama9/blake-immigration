@@ -26,6 +26,7 @@ const resources = {
       'PAGE NOT FOUND': 'PÁGINA NO ENCONTRADA',
       "We're sorry, that page doesn't seem to exist.":
         'Lo sentimos, parece que se perdió esta página.',
+      Phone: 'Telefono'
     },
   },
 }

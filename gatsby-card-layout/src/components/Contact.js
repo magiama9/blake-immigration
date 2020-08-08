@@ -17,7 +17,7 @@ const Contact = props => (
               <input type="hidden" name="form-name" value="contact" />
               <div className="field half first">
                 <label htmlFor="name">{t('Name')}</label>
-                <input type="text" name="nayarme" id="name" />
+                <input type="text" name="name" id="name" />
               </div>
               <div className="field half">
                 <label htmlFor="email">{t('Email')}</label>
@@ -55,7 +55,7 @@ const Contact = props => (
             <section>
               <div className="contact-method">
                 <span className="icon alt fa-phone"></span>
-                <h3>Phone/Telefono</h3>
+                <h3>{t('Phone')}</h3>
                 <span>(703) 594-7857</span>
               </div>
             </section>

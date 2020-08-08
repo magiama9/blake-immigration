@@ -7,6 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import jBlake from '../assets/images/j-blake-old-headshot.webp'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import { logo } from '../assets/images/logos/SmallLogo.png'
 
 const About = props => (
   <Layout>
@@ -26,12 +27,15 @@ const About = props => (
       ]}
     ></Helmet>
 
-    <BannerLanding />
+    <BannerLanding title="About" />
 
     <div id="main">
       <section id="one">
         <div className="inner">
           <header className="major">
+            <Link to="/generic" className="image">
+              <img src={logo} alt="" />
+            </Link>
             <h2>Sed amet aliquam</h2>
           </header>
           <p>
@@ -48,7 +52,7 @@ const About = props => (
       <section id="two" className="spotlights">
         <section>
           <Link to="/generic" className="image">
-            <img src={jBlake} alt="" />
+            <img src={logo} alt="" />
           </Link>
           <div className="content">
             <div className="inner">

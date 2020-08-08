@@ -19,7 +19,7 @@ const Banner = props => (
 
             <ul className="actions">
               <li>
-                <a href="#one" className="button next scrolly">
+                <a href="#contact" className="button next scrolly">
                   {t('Contact')}
                 </a>
               </li>
