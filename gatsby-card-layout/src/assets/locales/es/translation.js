@@ -2,6 +2,7 @@ const resources = {
   es: {
     translation: {
       Contact: 'Contacto',
+      'Contact Us': 'Contactarnos',
       Services: 'Servicios',
       'Removal Defense, Humanitarian Visas, Family-based Immigration, Naturalization':
         'Defensa de Deportación, Visas Humanitarias, Peticiones Familiares, Naturalización',
@@ -31,6 +32,9 @@ const resources = {
       'Humanitarian Visas': 'Visas Humanitarias',
       'Family-based Immigration': 'Peticiones Familiares',
       Naturalization: 'Naturalización',
+      'Call Us For A Consultation': 'Llámenos para una consulta',
+      Home: 'Página Principal',
+      'Call Us': 'Llámenos'
     },
   },
 }

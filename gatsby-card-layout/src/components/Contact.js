@@ -36,7 +36,7 @@ const Contact = props => (
                   />
                 </li>
                 <li>
-                  <input type="reset" value={t("Clear")}/>
+                  <input type="reset" value={t('Clear')} />
                 </li>
               </ul>
             </form>
@@ -56,7 +56,10 @@ const Contact = props => (
               <div className="contact-method">
                 <span className="icon alt fa-phone"></span>
                 <h3>{t('Phone')}</h3>
-                <span>(703) 594-7857</span>
+                <a href="tel:703-594-7857">
+                  {' '}
+                  <span>(703) 594-7857</span>
+                </a>
               </div>
             </section>
             <section>

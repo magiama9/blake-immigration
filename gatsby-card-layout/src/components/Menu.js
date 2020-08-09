@@ -11,7 +11,7 @@ const Menu = props => (
           <ul className="links">
             <li>
               <Link onClick={props.onToggleMenu} to="/">
-                Home
+                {t('Home')}
               </Link>
             </li>
             <li>
@@ -24,23 +24,35 @@ const Menu = props => (
                 {t('Services')}
               </Link>
             </li>
+            
             <li>
-              <Link onClick={props.onToggleMenu} to="/elements">
+              <Link onClick={props.onToggleMenu} to="/testimonials">
                 {t('Testimonials')}
+              </Link>
+            </li>
+            <li>
+              <Link onClick={props.onToggleMenu} to="/victories">
+                {t('Victories')}
+              </Link>
+            </li>
+            <li>
+              <Link onClick={props.onToggleMenu} to="/social">
+                {t('Social Media')}
+              </Link>
+            </li>
+            <li>
+              <Link onClick={props.onToggleMenu} to="/contact">
+                {t('Contact')}
               </Link>
             </li>
           </ul>
           <ul className="actions vertical">
             <li>
-              <a href="#" className="button special fit">
-                Get Started
+              <a href="tel:703-594-7857" className="button special fit">
+               {t("Call Us")} - (703)594-7857
               </a>
             </li>
-            <li>
-              <a href="#" className="button fit">
-                Log In
-              </a>
-            </li>
+           
           </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">

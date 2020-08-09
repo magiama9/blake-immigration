@@ -59,37 +59,34 @@ class HomeIndex extends React.Component {
                   </header>
                   <Link to="/services" className="link primary"></Link>
                 </article>
-                <article style={{ backgroundImage: `url(${pic02})` }}>
-                  <header className="major">
-                    <h3>Servicios</h3>
-                    <p>
-                      Defensa de Deportación, Visas Humanitarias, Peticiones
-                      Familiares, Naturalización
-                    </p>
-                  </header>
-                  <Link to="/services" className="link primary"></Link>
-                </article>
 
-                <article style={{ backgroundImage: `url(${pic04})` }}>
+                <article style={{ backgroundImage: `url(${pic06})` }}>
                   <header className="major">
-                    <h3>{t('Social Media')}</h3>
-                    <p>{t('Stay Up To Date')}</p>
+                    <h3>{t('Testimonials')}</h3>
+                    <p>{t("Hear from people we've helped")}</p>
                   </header>
-                  <Link to="/landing" className="link primary"></Link>
+                  <Link to="/testimonials" className="link primary"></Link>
                 </article>
                 <article style={{ backgroundImage: `url(${pic05})` }}>
                   <header className="major">
                     <h3>{t('Victories')}</h3>
                     <p>{t("See what we've done")}</p>
                   </header>
-                  <Link to="/landing" className="link primary"></Link>
+                  <Link to="/victories" className="link primary"></Link>
                 </article>
-                <article style={{ backgroundImage: `url(${pic06})` }}>
+                <article style={{ backgroundImage: `url(${pic04})` }}>
                   <header className="major">
-                    <h3>{t('Testimonials')}</h3>
-                    <p>{t("Hear from people we've helped")}</p>
+                    <h3>{t('Social Media')}</h3>
+                    <p>{t('Stay Up To Date')}</p>
                   </header>
-                  <Link to="/landing" className="link primary"></Link>
+                  <Link to="/social" className="link primary"></Link>
+                </article>
+                <article style={{ backgroundImage: `url(${pic04})` }}>
+                  <header className="major">
+                    <h3>{t('Contact Us')}</h3>
+                    <p>{t('Call Us For A Consultation')}</p>
+                  </header>
+                  <Link to="/contact" className="link primary"></Link>
                 </article>
               </section>
               <section id="two">
@@ -104,9 +101,9 @@ class HomeIndex extends React.Component {
                   </p>
                   <ul className="actions">
                     <li>
-                      <Link to="/landing" className="button next">
-                        Get Started
-                      </Link>
+                      <a href="tel:703-594-7857" className="button next">
+                        {t('Call Us For A Consultation')}
+                      </a>
                     </li>
                   </ul>
                 </div>
