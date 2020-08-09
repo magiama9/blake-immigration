@@ -36,7 +36,7 @@ class Services extends React.Component {
         <Translation>
           {t => (
             <div>
-              <BannerLanding title={t("Services")} />
+              <BannerLanding title={t('Services')} />
 
               <div id="main" className="alt">
                 <section id="one">
@@ -58,7 +58,7 @@ class Services extends React.Component {
                     </p>
                     <div className="grid-wrapper">
                       <div className="col-6">
-                        <h3>Sem turpis amet semper</h3>
+                        <h3>{t('Removal Defense')}</h3>
                         <p>
                           Nunc lacinia ante nunc ac lobortis. Interdum
                           adipiscing gravida odio porttitor sem non mi integer
@@ -71,7 +71,7 @@ class Services extends React.Component {
                         </p>
                       </div>
                       <div className="col-6">
-                        <h3>Magna odio tempus commodo</h3>
+                        <h3>{t('Humanitarian Visas')}</h3>
                         <p>
                           In arcu accumsan arcu adipiscing accumsan orci ac.
                           Felis id enim aliquet. Accumsan ac integer lobortis
@@ -83,8 +83,8 @@ class Services extends React.Component {
                           accumsan ac praesent.
                         </p>
                       </div>
-                      <div className="col-4">
-                        <h3>Interdum sapien gravida</h3>
+                      <div className="col-6">
+                        <h3>{t('Family-based Immigration')}</h3>
                         <p>
                           Nunc lacinia ante nunc ac lobortis. Interdum
                           adipiscing gravida odio porttitor sem non mi integer
@@ -94,19 +94,8 @@ class Services extends React.Component {
                           tempus accumsan.
                         </p>
                       </div>
-                      <div className="col-4">
-                        <h3>Faucibus consequat lorem</h3>
-                        <p>
-                          Nunc lacinia ante nunc ac lobortis. Interdum
-                          adipiscing gravida odio porttitor sem non mi integer
-                          non faucibus ornare mi ut ante amet placerat aliquet.
-                          Volutpat eu sed ante lacinia sapien lorem accumsan
-                          varius montes viverra nibh in adipiscing blandit
-                          tempus accumsan.
-                        </p>
-                      </div>
-                      <div className="col-4">
-                        <h3>Accumsan montes viverra</h3>
+                      <div className="col-6">
+                        <h3>{t('Naturalization')}</h3>
                         <p>
                           Nunc lacinia ante nunc ac lobortis. Interdum
                           adipiscing gravida odio porttitor sem non mi integer

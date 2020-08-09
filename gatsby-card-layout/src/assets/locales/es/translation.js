@@ -26,7 +26,11 @@ const resources = {
       'PAGE NOT FOUND': 'PÁGINA NO ENCONTRADA',
       "We're sorry, that page doesn't seem to exist.":
         'Lo sentimos, parece que se perdió esta página.',
-      Phone: 'Telefono'
+      Phone: 'Telefono',
+      'Removal Defense': 'Defensa de Deportación',
+      'Humanitarian Visas': 'Visas Humanitarias',
+      'Family-based Immigration': 'Peticiones Familiares',
+      Naturalization: 'Naturalización',
     },
   },
 }

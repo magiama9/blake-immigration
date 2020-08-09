@@ -7,7 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import jBlake from '../assets/images/j-blake-old-headshot.webp'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
-import { logo } from '../assets/images/logos/SmallLogo.png'
+import { logo } from '../assets/images/SmallLogo.png'
 
 const About = props => (
   <Layout>
