@@ -27,14 +27,18 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
+		outline:0;
 
 		.logo {
 			border: 0;
+			outline:0;
 			display: inline-block;
+			text-decoration:none;
 			font-size: 0.8em;
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
+			
 
 			strong {
 				@include vendor('transition', (
@@ -46,16 +50,19 @@
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
+				outline:0;
 				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
 			}
 
 			&:hover {
 				strong {
 					background-color: _palette(highlight);
+					outline:0
 				}
 			}
 
 			&:active {
+				outline:0;
 				strong {
 					background-color: desaturate(darken(_palette(highlight), 15), 5);
 				}
@@ -136,6 +143,7 @@
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
+			outline:0;
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 { .logo { strong { color: _palette(accent2); } } }
@@ -207,6 +215,7 @@
 
 							&:before, &:after {
 								right: 1.5em;
+								outline:0;
 							}
 						}
 					}
