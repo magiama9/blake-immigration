@@ -5,12 +5,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import services from '../assets/images/services.jpg'
-import contact from '../assets/images/contact.png'
-import aboutus from '../assets/images/aboutus.jpg'
-import socialmedia from '../assets/images/socialmedia.jpg'
-import victories from '../assets/images/victories.jpg'
-import testimonials from '../assets/images/testimonials.jpg'
+import servicespic from '../assets/images/services.jpg'
+import contactpic from '../assets/images/contact.png'
+import aboutuspic from '../assets/images/aboutus.jpg'
+import socialmediapic from '../assets/images/socialmedia.jpg'
+import victoriespic from '../assets/images/victories.jpg'
+import testimonialspic from '../assets/images/testimonials.jpg'
 
 import { Translation, Trans } from 'react-i18next'
 
@@ -40,7 +40,7 @@ class HomeIndex extends React.Component {
           {t => (
             <div id="main">
               <section id="one" className="tiles">
-                <article style={{ backgroundImage: `url(${aboutus})` }}>
+                <article style={{ backgroundImage: `url(${aboutuspic})` }}>
                   <header className="major">
                     <h3>{t('About Us')}</h3>
                     <p>{t('Meet our team')}</p>
@@ -48,7 +48,7 @@ class HomeIndex extends React.Component {
 
                   <Link to="/about" className="link primary"></Link>
                 </article>
-                <article style={{ backgroundImage: `url(${services})` }}>
+                <article style={{ backgroundImage: `url(${servicespic})` }}>
                   <header className="major">
                     <h3>{t('Services')}</h3>
                     <p>
@@ -60,28 +60,28 @@ class HomeIndex extends React.Component {
                   <Link to="/services" className="link primary"></Link>
                 </article>
 
-                <article style={{ backgroundImage: `url(${testimonials})` }}>
+                <article style={{ backgroundImage: `url(${testimonialspic})` }}>
                   <header className="major">
                     <h3>{t('Testimonials')}</h3>
                     <p>{t("Hear from people we've helped")}</p>
                   </header>
                   <Link to="/testimonials" className="link primary"></Link>
                 </article>
-                <article style={{ backgroundImage: `url(${victories})` }}>
+                <article style={{ backgroundImage: `url(${victoriespic})` }}>
                   <header className="major">
                     <h3>{t('Victories')}</h3>
                     <p>{t("See what we've done")}</p>
                   </header>
                   <Link to="/victories" className="link primary"></Link>
                 </article>
-                <article style={{ backgroundImage: `url(${socialmedia})` }}>
+                <article style={{ backgroundImage: `url(${socialmediapic})` }}>
                   <header className="major">
                     <h3>{t('Social Media')}</h3>
                     <p>{t('Stay Up To Date')}</p>
                   </header>
                   <Link to="/social" className="link primary"></Link>
                 </article>
-                <article style={{ backgroundImage: `url(${contact})` }}>
+                <article style={{ backgroundImage: `url(${contactpic})` }}>
                   <header className="major">
                     <h3>{t('Contact Us')}</h3>
                     <p>{t('Call Us For A Consultation')}</p>
