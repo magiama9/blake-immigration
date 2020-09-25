@@ -10,7 +10,7 @@ import contact from '../assets/images/contact.png'
 import aboutus from '../assets/images/aboutus.jpg'
 import socialmedia from '../assets/images/socialmedia.jpg'
 import victories from '../assets/images/victories.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import testimonials from '../assets/images/testimonials.jpg'
 
 import { Translation, Trans } from 'react-i18next'
 
@@ -60,7 +60,7 @@ class HomeIndex extends React.Component {
                   <Link to="/services" className="link primary"></Link>
                 </article>
 
-                <article style={{ backgroundImage: `url(${pic06})` }}>
+                <article style={{ backgroundImage: `url(${testimonials})` }}>
                   <header className="major">
                     <h3>{t('Testimonials')}</h3>
                     <p>{t("Hear from people we've helped")}</p>
