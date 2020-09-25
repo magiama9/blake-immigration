@@ -24,7 +24,7 @@ const Menu = props => (
                 {t('Services')}
               </Link>
             </li>
-            
+
             <li>
               <Link onClick={props.onToggleMenu} to="/testimonials">
                 {t('Testimonials')}
@@ -49,10 +49,17 @@ const Menu = props => (
           <ul className="actions vertical">
             <li>
               <a href="tel:703-594-7857" className="button special fit">
-               {t("Call Us")} - (703)594-7857
+                {t('Call Us')} - (703)594-7857
               </a>
             </li>
-           
+            <li>
+              <a
+                href="https://secure.lawpay.com/pages/blakeimmigration/trust"
+                className="button special fit"
+              >
+                {t('Pay Online')}
+              </a>
+            </li>
           </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">

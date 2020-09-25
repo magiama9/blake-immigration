@@ -75,7 +75,7 @@ const Contact = props => (
                 </span>
                 <span>
                   <b>Physical Address - Alexandria</b> <br />
-                  1727 King Street, Suite 105
+                  1517 King Street
                   <br />
                   Alexandria, VA 22314
                   <br />
