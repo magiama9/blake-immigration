@@ -43,9 +43,9 @@ const About = props => (
           <div id="main">
             <section id="two" className="spotlights">
               <section>
-                <Link to="/generic" className="image">
+                
                   <img src={jBlake} alt="" />
-                </Link>
+               
                 <div className="content">
                   <div className="inner">
                     <header className="major">
@@ -62,9 +62,9 @@ const About = props => (
               </section>
               <div>{/* Blank On Purpose For Layout */}</div>
               <section>
-                <Link to="/generic" className="image">
+                
                   <img src={aPatel} alt="Ami Patel" />
-                </Link>
+               
                 <div className="content">
                   <div className="inner">
                     <header className="major">
