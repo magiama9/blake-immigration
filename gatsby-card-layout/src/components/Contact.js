@@ -46,10 +46,7 @@ const Contact = props => (
               <div className="contact-method">
                 <span className="icon alt fa-envelope"></span>
                 <h3>Email</h3>
-                <a href="#">info@bw-immigration.com</a>
-                <p>
-                  <a href="#">blakeandwilsonimmigrationlaw@gmail.com</a>
-                </p>
+                <a href="mailto:jillian@blakeimmigration.com">jillian@blakeimmigration.com</a>
               </div>
             </section>
             <section>
